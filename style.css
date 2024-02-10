@@ -49,13 +49,50 @@ a{
     padding: 50px;
     
 }
+.catalog{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+.text{
+    color: #1f2937;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.pic1, .pic2, .pic3, .pic4{
+    display: block;
+    text-align: center;
+}
 
 h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
-p{
+h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+#one{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#f{
+    width: 450px;
+    height: 250px;
+}
+#t{
+    width: 150px;
+    height: 150px;
 }
