@@ -21,6 +21,7 @@ button{
     border-radius: 8px;
     width: 150px;
     height: 40px;
+    border-color: #e5e7eb;
 }
 .rightH{
     display: flex;
@@ -94,7 +95,35 @@ a{
     margin-bottom: 50px;
     
 }
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    border-radius: 8px;
+    gap: 30px;
+    margin: 30px;
+    background-color: #3882f6;
+    
+}
+#box{
+    color: #e5e7eb;
+    font-size: 22px;
+    font-weight: bolder;
+}
 
+#box2{
+    color: #e5e7eb;
+    font-size: 12px;
+    font-weight: bold;
+}
 
 h1{
     font-size: 48px;
