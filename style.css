@@ -28,7 +28,7 @@ button{
     align-items: center;
     margin-left: auto;
     padding: 13px;
-    margin-right: 40px;
+    margin-right: 20px;
     
 }
 ul{
@@ -48,6 +48,7 @@ a{
     display: flex;
     background-color: #1f2937;
     padding: 50px;
+    align-items: center;
     
 }
 .catalog{
@@ -57,9 +58,17 @@ a{
 
 .cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 25px;
+    align-items: center;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
     
+}
+.rightContent{
+    margin-left: auto;
+    margin-right: 4opx;
 }
 .text{
     color: #1f2937;
@@ -112,6 +121,13 @@ a{
     margin: 30px;
     background-color: #3882f6;
     
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 22px;
+    padding: 20px;
 }
 #box{
     color: #e5e7eb;
