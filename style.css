@@ -13,12 +13,22 @@ body{
     align-items: center;
     justify-content: center;
   }
+button{
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #f9faf8;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+}
 .rightH{
     display: flex;
     align-items: center;
     margin-left: auto;
     padding: 13px;
-    justify-content: center;
+    margin-right: 40px;
+    
 }
 ul{
     display: flex;
@@ -36,19 +46,10 @@ a{
 .content{
     display: flex;
     background-color: #1f2937;
+    padding: 50px;
     
 }
-.rightContent{
-    display: flex;
-    margin: 40px;
-    
-}
-.leftContent{
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-    
-}
+
 h1{
     font-size: 48px;
     font-weight: bolder;
