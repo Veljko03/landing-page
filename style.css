@@ -81,6 +81,7 @@ a{
 .pic1, .pic2, .pic3, .pic4{
     display: block;
     text-align: center;
+    width: 150px;
 }
 .quote{
     margin-top: 100px;
