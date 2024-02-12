@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header{
@@ -62,8 +63,7 @@ a{
     gap: 25px;
     align-items: center;
     padding: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    
     
 }
 .rightContent{
@@ -87,6 +87,7 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding: 80px;
  }
 .quote-text{
     margin: 50px;
